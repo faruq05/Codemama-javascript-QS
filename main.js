@@ -128,3 +128,40 @@
 // const num2 = data[1];
 // const remainder = num1%num2;
 // console.log(remainder); 
+
+//find next Number
+// input = "3 5 7"
+// const temp = input.split(" ");
+// const data = temp.map(item => Number(item));
+// const [a, b, c] = data;
+// function findNextNumber(a, b, c) {
+//     const difference = b - a;
+//     const nextNumber = c + difference;
+//     return nextNumber;
+// }
+// const nextNumber = findNextNumber(a, b, c);
+// console.log(nextNumber);
+
+//BMI calculate
+// input = "1.6 60";
+// const temp = input.split(" ");
+// const data = temp.map(item => Number(item));
+// const [h, w] = data;
+// function calculateBMI(height, weight) {
+//     return weight / (height * height);
+// }
+// function weightstatus(bmi) {
+//     if (bmi < 18.5) {
+//         return "Underweight";
+//     } else if (bmi >= 18.5 && bmi < 25.0) {
+//         return "Normal weight";
+//     } else if (bmi >= 25.0 && bmi < 30.0) {
+//         return "Overweight";
+//     } else {
+//         return "Obese";
+//     }
+// }
+// const bmi = calculateBMI(h, w);
+// const weight = weightstatus(bmi);
+// console.log(`BMI: ${bmi.toFixed(2)}`);
+// console.log(weight);
