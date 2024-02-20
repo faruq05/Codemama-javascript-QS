@@ -165,3 +165,71 @@
 // const weight = weightstatus(bmi);
 // console.log(`BMI: ${bmi.toFixed(2)}`);
 // console.log(weight);
+
+//Sum of Array Elements
+// function main(input) {
+//     const lines = input.trim().split('\n');
+//     const size = parseInt(lines[0]);
+//     const array = lines[1].split(' ').map(Number);
+//     const sum = findSumLessthenMedian(array);
+//     console.log(sum);
+// }
+
+// function findSumLessthenMedian(array) {
+//     array.sort((a, b) => a - b);
+//     const medianIndex = Math.floor(array.length / 2);
+//     const medianElement = array[medianIndex];
+//     let sum = 0;
+//     for (let i = 0; i < medianIndex; i++) {
+//         if (array[i] < medianElement) {
+//             sum += array[i];
+//         }
+//     }
+//     return sum;
+// }
+
+//reversed number
+// input = "1234";
+// const trimmedInput = input.trim();
+// const reversedString = trimmedInput.split('').reverse().join('');
+// const reversedNumber = parseInt(reversedString);
+// console.log(reversedNumber);
+
+//Find factorial
+// function main (input) {
+//     input = "4";
+//     const num = parseInt(input.trim());
+//     const result = factorial(num);
+//     console.log(result);
+// }
+
+// function factorial(num){
+//     if(num === 0){
+//         return 1;
+//     }
+//     return num* factorial(num-1);
+// }
+
+//palindrome
+// function isPalindrome(num) {
+//     const numStr = num.toString();
+//     const len = numStr.length;
+//     for (let i = 0; i < len / 2; i++) {
+//         if (numStr[i] !== numStr[len - 1 - i]) {
+//             return false;
+//         }
+//     }
+//     return true;
+// }
+
+// function main(input) {
+//     input = "121";
+//     const num = parseInt(input.trim());
+//     const isPal = isPalindrome(num);
+//     if (isPal) {
+//         console.log(`${num} is a palindrome number`);
+//     } else {
+//         console.log(`${num} is not a palindrome number`);
+//     }
+// }
+
